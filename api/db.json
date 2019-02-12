@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "name": "Nikki",
+      "lastNameValue": "Ash",
+      "email": "nikx1015@gmail.com",
+      "phone": "3041111111",
+      "birthday": "1987-06-11",
+      "department": "derp",
+      "id": 1
+    },
+    {
+      "firstName": "Nikki",
+      "lastName": "Ash",
+      "email": "nikx1015@gmail.com",
+      "phone": "3041111111",
+      "birthday": "1987-06-11",
+      "department": "derp",
+      "id": 2
+    }
+  ]
+}
