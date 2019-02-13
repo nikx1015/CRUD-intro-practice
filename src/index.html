@@ -12,17 +12,38 @@
 
   <div id="employee-form">
     <fieldset id=employee>
-      <input type="text" name="firstName" id="first-name">First Name
-      <input type="text" name="lastName" id="last-name">Last Name
-      <input type="text" name="email" id="email">Email
-      <input type="text" name="phone" id="phone">Phone
-      <input type="date" name="dob" id="birthday">Birthday
-      <input type="text" name="dept" id="department">Department
+      <legend>Enter New Employee Info</legend>
+      <label for="hrInfo">First Name</label>
+      <input type="text" name="firstName" id="first-name">
+      <label for="hrInfo">Last Name</label>
+      <input type="text" name="lastName" id="last-name">
+      <label for="hrInfo">Email</label>
+      <input type="text" name="email" id="email">
+      <label for="hrInfo">Phone</label>
+      <input type="text" name="phone" id="phone">
+      <label for="hrInfo">Birthday</label>
+      <input type="date" name="dob" id="birthday">
+      <label for="hrInfo">Department</label>
+      <input type="text" name="dept" id="department">
+      <label for="hrInfo">Supervisor</label>
+      <input type="checkbox" name="supervisor" id="supervisor">
+      <label for="hrInfo">Gender</label>
+      <select name="gender" id="gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      </select>
       <button id="add-btn">Add Employee</button>
 
     </fieldset>
   </div>
+  <div id="employee-list">
+    
+  </div>
+  <script src="scripts/printDom.js"></script>
+  <script src="scripts/delete.js"></script>
+  <script src="scripts/addEmployee.js"></script>
   <script src="scripts/main.js"></script>
+  
 
 </body>
 
