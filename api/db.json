@@ -1,13 +1,37 @@
 {
   "employees": [
     {
-      "firstName": "derpina",
-      "lastName": "derp",
-      "email": "derp@derpette.com",
+      "firstName": "Derpette",
+      "lastName": "DerpDerp",
+      "email": "derp@derp.com",
       "phone": "3041111111",
-      "birthday": "0101-01-01",
-      "department": "derping",
-      "id": 4
+      "birthday": "0202-02-02",
+      "department": "DerpDerp",
+      "supervisor": true,
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "firstName": "Derpina",
+      "lastName": "DerpDerp",
+      "email": "derp@derp.com",
+      "phone": "3041111111",
+      "birthday": "0203-01-02",
+      "department": "DerpDerp",
+      "supervisor": false,
+      "gender": "Female",
+      "id": 6
+    },
+    {
+      "firstName": "Nikki",
+      "lastName": "Ash",
+      "email": "nikx1015@gmail.com",
+      "phone": "3041111111",
+      "birthday": "2222-01-01",
+      "department": "derp",
+      "supervisor": true,
+      "gender": "Female",
+      "id": 7
     }
   ]
 }

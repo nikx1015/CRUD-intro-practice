@@ -20,6 +20,7 @@
             <p>Supervisor: ${employeeInfo.supervisor}</p>
             <p>Gender: ${employeeInfo.gender}</p>
             <button class="delete" id="delete-${employeeInfo.id}">Delete Employee</button>
+            <button class="edit" id="edit-${employeeInfo.id}">Edit Employee</button>
             </div>
             `
             })

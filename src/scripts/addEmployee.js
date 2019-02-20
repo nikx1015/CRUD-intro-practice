@@ -9,7 +9,7 @@ const addEmployee = () => {document.getElementById("add-btn").addEventListener("
     const supervisorValue = document.getElementById("supervisor").checked
     const genderValue = document.getElementById("gender").value
 
-    employeeObject = {
+    const employeeObject = {
         firstName: firstNameValue,
         lastName: lastNameValue,
         email: emailValue,
